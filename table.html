@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>Formatter</th>
+    <th>Description</th>
+  </tr>
+  {{range .Data}}
+  <tr>
+    <td><a href="{{.Url}}">{{.Name}}</a></td>
+    <td>{{.Description}}</td>
+  </tr>
+  {{end}}
+</table>
